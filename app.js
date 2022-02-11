@@ -5,11 +5,11 @@ npm install mongoose
 npm install cors
 
 git init
-git config --local user.name "aaa"
-git config --local user.email "a@a.lt"
+git config --local user.name "gedcet"
+git config --local user.email "gediminas.cet@gmail.com"
 git config --local push.default current
 echo node_modules/>.gitignore
-git remote add origin https://github.com/algis1234/konkursas.git
+git remote add origin https://github.com/gedcet/backend.git
 git remote -v
 
 git add *
