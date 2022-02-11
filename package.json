@@ -1,0 +1,17 @@
+{
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "a": "docker create --name container_mongo4 -p 27017:27017 mongo:4",
+        "b": "docker start container_mongo4",
+        "c": "docker create --name container4 -p 27000:27017 mongo:4",
+        "d": "docker pull mongo:4",
+        "e": "ipconfig"
+    },
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "express": "^4.17.2",
+        "mongoose": "^6.2.1"
+    }
+}
